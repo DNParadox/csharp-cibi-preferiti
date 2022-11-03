@@ -3,6 +3,18 @@
     public static void Main(string[] args)
     {
 
+        Console.WriteLine("il numero dei miei cibi preferiti sono:" + cibiPreferiti.Length);
+
+        for (int i = 1; i < cibiPreferiti.Length; i++)
+        {
+
+            Console.WriteLine(i + "." + cibiPreferiti[i]);
+
+        }
+
+        // Commento test   a
+        Console.WriteLine("Il mio cibo preferito: " + cibiPreferiti[1]);
+        Console.WriteLine("Quello che meno preferisco: " + cibiPreferiti[4]);
 
         // {
         // Snack 1
